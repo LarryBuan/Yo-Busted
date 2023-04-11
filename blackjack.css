@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; /*8:15*/
+    text-align: center;
+}
+
+#dealer-cards img { /*this will style every img (image) tag in dealer-cards*/
+
+    height: 175px;
+    width: 125px;
+    margin: 1px; /* 9:00margin prevents the cards from bumping into each other*/
+}
+
+#your-cards img { /*this will style every img (image) tag in your-cards*/
+
+    height: 175px;
+    width: 125px;
+    margin: 1px; /* 9:00margin prevents the cards from bumping into each other*/
+}
+
+#hit{ /*9:21 This is sizing for the hit button*/
+
+    width: 100px;
+    height:  50px;
+    font-size: 20px;
+
+}
+
+#stay{ /*9:37 This sizing for the  stay button*/
+
+    width: 100px;
+    height:  50px;
+    font-size: 20px;
+    
+}
+
+

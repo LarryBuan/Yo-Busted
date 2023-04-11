@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="blackjack.css">
+    <script src ="blackjack.js"></script>
+   <!-- -->
+</head>
+<body>
+    <h2>Dealer: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards">
+        <img id ="hidden" src="./cards/BACK.png"> <!--10:00 "hidden" id tag is given so that we can change this card later -->
+        <!--<img src="./cards/K-D.png">8:00 pictures added for testing 10:00 deleted -->
+    </div><!--6:11 -->
+
+    <h2>You: <span id = "your-sum"></span></h2><!-- 6:31 javascript will be used to populate this-->
+    <div id="your-cards"></div>
+
+    <br>
+    <button id="hit">Hit</button> <!-- 6:40-->
+    <button id="stay">Stay</button>
+    <p id ="results"></p>
+
+
+</body>
+</html>
